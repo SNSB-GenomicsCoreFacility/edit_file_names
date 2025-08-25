@@ -71,7 +71,7 @@ python file_renamer.py -s 2 -e 5 -m pattern -i "./files/*.txt"
 
 ### 2. Replace Mode (phrases)
 
-Replaces one phrase with another in filenames.
+Replaces one phrase with another in filenames. If you want to simply remove "draft" from the file name without replacing it with any other phrase, simply keep the input for the argument -e empty, like this -e "".
 
 ```bash
 python file_renamer.py -s "draft" -e "final" -m pattern -i "./docs/*.docx"
