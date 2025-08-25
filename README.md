@@ -22,8 +22,8 @@ Supports both **file lists** and **wildcard patterns** with an optional **dry-ru
 Clone this repository and ensure you have **Python 3.7+** installed.
 
 ```bash
-git clone https://github.com/your-repo/file-renamer.git
-cd file-renamer
+git clone https://github.com/SNSB-GenomicsCoreFacility/edit_file_names.git
+cd edit_file_names
 
 ```
 
