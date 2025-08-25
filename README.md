@@ -61,7 +61,7 @@ python edit_file_names.py [options]
 Removes a range of characters from filenames using **1-based indexing**.
 
 ```bash
-python file_renamer.py -s 2 -e 5 -m pattern -i "./files/*.txt"
+python edit_file_names.py -s 2 -e 5 -m pattern -i "./files/*.txt"
 
 #Original: myfile123.txt
 #Command: -s 2 -e 5
@@ -74,7 +74,7 @@ python file_renamer.py -s 2 -e 5 -m pattern -i "./files/*.txt"
 Replaces one phrase with another in filenames. If you want to simply remove "draft" from the file name without replacing it with any other phrase, simply keep the input for the argument -e empty, like this -e "".
 
 ```bash
-python file_renamer.py -s "draft" -e "final" -m pattern -i "./docs/*.docx"
+python edit_file_names.py -s "draft" -e "final" -m pattern -i "./docs/*.docx"
 
 #Original: report_draft.docx
 #Command: -s "draft" -e "final"
@@ -92,7 +92,7 @@ Provide a text file (file_list.txt) containing paths (one per line):
 ```
 Run the script:
 ```bash
-python file_renamer.py -s 1 -e 3 -m file -i file_list.txt
+python edit_file_names.py -s 1 -e 3 -m file -i file_list.txt
 ```
 
 
